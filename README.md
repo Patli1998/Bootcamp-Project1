@@ -14,6 +14,6 @@ Files used
 Main.ipynb (main code)
 Analysis.pdf (final anlysis)
 Readme.md (read me)
-Presentation.pdf (slides presentation)
+Presentation.pptx (slides presentation)
 ElevatorPitchPolished.pdf (hypothesis, original idea)
 .gitignore (x)
