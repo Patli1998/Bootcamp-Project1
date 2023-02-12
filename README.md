@@ -18,3 +18,6 @@ Presentation.pdf (slides presentation)
 ElevatorPitchPolished.pdf (hypothesis, original idea)
 .gitignore (x)
 
+Dependencies
+We had to pip install the following additional dependencies to our library in order to pull the data and run the codes and properly show the information needed: 
+"scipy.stats", "pandas_datareader", "seaborn", and "yfinance"
