@@ -27,7 +27,7 @@ ElevatorPitchPolished.pdf (hypothesis, original idea)
 
 .gitignore (gitignore file)
 
-Note
+##NOTE##
 
 The following Dependencies will need to be installed for the following code to run:
 
