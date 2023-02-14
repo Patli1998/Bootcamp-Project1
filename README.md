@@ -16,9 +16,14 @@ Variables used are SPY, QQQ, VTI, XLK, XLY, XLP XLV, XLI, XLF, VNQ, XLE, XLU, we
 Files used:
 
 Main.ipynb (main code)
+
 Analysis.pdf (final analysis)
+
 Readme.md (read me)
+
 Presentation.pdf (slides presentation)
+
 ElevatorPitchPolished.pdf (hypothesis, original idea)
+
 .gitignore (gitignore file)
 
