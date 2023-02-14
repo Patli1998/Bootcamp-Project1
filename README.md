@@ -11,7 +11,7 @@ The purpose of this project is to comparatively analyze the performance of each 
 
 Process:
 
-Variables used are SPY, QQQ, VTI, XLK, XLY, XLP XLV, XLI, XLF, VNQ, XLE, XLU, we pulled this information into individual DataFrames. We dropped formatting that Yahoo provided, so that, we create standardized the data for further combination. Generate the Rate of Return for all stock ETF tickers we have using the Rate of Return formula. Made a DataFrame for the returns for 10,5,3,1 years for all Tickers. Then we Extracted the 10 Year Rate of Return and Plot it in a Bar Charts. Graphed the cumulative change line for all ETFs by different sectors since 2012/01/01.
+Variables used are SPY, QQQ, VTI, XLK, XLY, XLP XLV, XLI, XLF, VNQ, XLE, XLU, we pulled this information into individual DataFrames. We dropped formatting that Yahoo provided, so that, we create standardized the data for further combination. Generate the Rate of Return for all stock ETF tickers we have using the Rate of Return formula. Made a DataFrame for the returns for 10,5,3,1 years for all Tickers. Then we Extracted the 10 Year Rate of Return and Plot it in a Bar Charts. Graphed the cumulative change line for all ETFs by different sectors since 2012/01/01. 
 
 Files used:
 
@@ -26,4 +26,29 @@ Presentation.pdf (slides presentation)
 ElevatorPitchPolished.pdf (hypothesis, original idea)
 
 .gitignore (gitignore file)
+
+Note
+
+The following Dependencies will need to be installed for the following code to run:
+​
+import numpy as np
+​
+import pandas as pd
+​
+import os
+​
+import yfinance as yf
+​
+yf.pdr_override()
+​
+from pandas_datareader import data as pdr
+​
+import csv
+​
+from matplotlib import pyplot as plt
+​
+import scipy.stats as st
+​
+import seaborn as sns
+
 
