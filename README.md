@@ -30,25 +30,35 @@ ElevatorPitchPolished.pdf (hypothesis, original idea)
 Note
 
 The following Dependencies will need to be installed for the following code to run:
-​
+
+
 import numpy as np
-​
+
+
 import pandas as pd
-​
+
+
 import os
-​
+
+
 import yfinance as yf
-​
+
+
 yf.pdr_override()
-​
+
+
 from pandas_datareader import data as pdr
-​
+
+
 import csv
-​
+
+
 from matplotlib import pyplot as plt
-​
+
+
 import scipy.stats as st
-​
+
+
 import seaborn as sns
 
 
